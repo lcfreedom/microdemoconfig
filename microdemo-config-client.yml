@@ -17,8 +17,8 @@ eureka:
          defaultZone: http://demo:demo@localhost:7001/eureka
 
 info:
-   app.name: microDemo-config-client-dev
-   company.name: lucao
+   app.name: microDemo-config-client-dev2
+   company.name: luc
 
 
 ---
