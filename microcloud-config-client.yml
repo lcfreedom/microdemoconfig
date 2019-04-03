@@ -15,6 +15,12 @@ eureka:
  client:
   service-url:
     defaultZone: http://demo:demo@localhost:7001/eureka
+
+info:
+  app.name: microDemo-config-client-dev
+  company.name: lucao
+
+
 ---
 server:
   port: 8102
@@ -28,3 +34,8 @@ eureka:
  client:
   service-url:
     defaultZone: http://demo:demo@localhost:7001/eureka
+    
+info:
+  app.name: microDemo-config-client-beta
+  company.name: lucao
+
